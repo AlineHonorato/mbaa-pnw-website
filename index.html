@@ -17,7 +17,7 @@
 		<meta name="author" content="Multia-Studio" />
 
 		<!-- GOOGLE FONTS -->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'> 
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'> 
 
 		<!-- STYLESHEETS -->
 		<link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -57,7 +57,7 @@
 						 <span class="icon-bar"></span>
 						 <span class="icon-bar"></span>
 					  </button>
-					   <img src="assets\img\logos\png2Artboard 3.png" alt="logo" width="200px" style="margin-top: 15px;"">
+					   <img src="assets\img\logos\1.png" alt="logo" width="200px" style="margin-top: 15px; filter: invert(1);" id="toplogo">
 				   </div>
 				   <div class="collapse navbar-collapse" id="example-navbar-collapse">
 					  <ul class="nav navbar-nav">
@@ -146,6 +146,33 @@
 						<ul class="legals">
 							<li><button class="md-trigger " data-modal="modal-11">Disclaimer</button></li>
 							<li><a href="http://multia.in/">Made in Multia</a></li>
+							<li>
+								<script type="text/javascript">
+										function changeLogo() {
+											let selectedlogo = document.getElementById("logoselector").value;;
+											document.getElementById("toplogo").setAttribute("src", "assets\\img\\logos\\"+ selectedlogo + ".png");;
+										
+										}
+								</script>
+								Logo selection:
+								<select id="logoselector" style="color: black;" onChange="changeLogo()">
+									<option value="1">Logo 1</option>
+									<option value="2">Logo 2</option>
+									<option value="3">Logo 3</option>
+									<option value="4">Logo 4</option>
+									<option value="5">Logo 5</option>
+									<option value="6">Logo 6</option>
+									<option value="7">Logo 7</option>
+									<option value="8">Logo 8</option>
+									<option value="9">Logo 9</option>
+									<option value="10">Logo 10</option>
+									<option value="11">Logo 11</option>
+									<option value="12">Logo 12</option>
+									<option value="13">Logo 13</option>
+									<option value="14">Logo 14</option>
+									<option value="15">Logo 15</option>
+								</select>
+							</li>
 						</ul>
 					</div>
 					<div class="md-modal md-effect-9" id="modal-11">
@@ -186,7 +213,7 @@
 		<script type="text/javascript" src="assets/js/modalEffects.js" ></script>
        
 	    <script type="text/javascript" src="assets/js/nlform.js" ></script>
-		<script>var nlform = new NLForm( document.getElementById( 'nl-form' ) );</script>
+
         <script type="text/javascript" src="assets/js/bootstrap.min.js" ></script>
         
 		<!-- TEAM SLIDER  -->
