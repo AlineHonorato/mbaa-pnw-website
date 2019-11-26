@@ -99,7 +99,7 @@
 				<hr id="title_hr"/>
 				<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
 GIX Steve Ballmer Building, Bellevue. 21-26 Sept 2020</p>
-				<a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="#contact">Notify me</a>
+				<a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="#contact" onClick="nextLogo()">Next logo</a>
 			</div>
 		</section>
 		<!--/HOME-->
@@ -117,6 +117,21 @@ GIX Steve Ballmer Building, Bellevue. 21-26 Sept 2020</p>
 							<li><a href="http://multia.in/">Made in Multia</a></li>
 							<li>
 								<script type="text/javascript">
+								var logos = [ "I.png" , "K2.png" , "L.png" , "M.png" ];
+								var currentlogo = 0;
+
+								function nextLogo() {
+									let selectedlogo = document.getElementById("logoselector").value;;
+									if (currentlogo + 1 >= logos.length) {
+										currentlogo = 0;
+									} else {
+										currentlogo++;
+									}
+									document.getElementById("toplogo")
+										.setAttribute("src", "assets\\img\\logos\\"+ logos[currentlogo]);;
+								
+								}
+
 								function changeLogo() {
 									let selectedlogo = document.getElementById("logoselector").value;;
 									document.getElementById("toplogo")
@@ -127,8 +142,6 @@ GIX Steve Ballmer Building, Bellevue. 21-26 Sept 2020</p>
 								Logo selection:
 								<select id="logoselector" style="color: black;" onChange="changeLogo()">
 									<option value="I.png">Logo I</option>
-									<option value="J.png">Logo J</option>
-									<option value="K.png">Logo K</option>
 									<option value="K2.png">Logo K2</option>
 									<option value="L.png">Logo L</option>
 									<option value="M.png">Logo M</option>
