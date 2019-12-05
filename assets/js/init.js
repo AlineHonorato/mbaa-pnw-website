@@ -284,7 +284,7 @@ jQuery( document ).ready(function( $ ) {
 	
 	 /******* Nice Scroll *******/
 
-	 $("html").niceScroll();
+	$("html").niceScroll();
 	 
 	 /** Placeholder JS call **/
 	$('input[type=text], textarea').placeholder();	

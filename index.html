@@ -73,7 +73,7 @@
 						 <span class="icon-bar"></span>
 						 <span class="icon-bar"></span>
 					  </button>
-					   <img src="assets\img\logos\I.png" alt="logo" class="toplogo" id="toplogo">
+					   <img src="assets\img\logos\L.png" alt="logo" class="toplogo" id="toplogo">
 				   </div>
 				   <div class="collapse navbar-collapse" id="example-navbar-collapse">
 					  <ul class="nav navbar-nav">
@@ -99,12 +99,29 @@
 				<hr id="title_hr"/>
 				<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
 GIX Steve Ballmer Building, Bellevue. 21-26 Sept 2020</p>
-				<a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="#contact" onClick="nextLogo()">Next logo</a>
+	
+				<div class="notify-by-email align-center">
+					<div class="row form-notify">
+						<h2>notify Me</h2>
+						<form action="notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-3 col-md-4 col-sm-6 col-xs-10">
+							<div class="input-group">
+							
+							  <input type="text" class="form-control email-add" name="email" placeholder="Email Address">
+							  <i></i>
+							  <span class="input-group-btn ">
+								<button class="btn btn-default notify-button">
+								<i class="icon-arrow right"><span></span></i></button>
+							  </span>
+							</div>
+						<div class="col-lg-12 align-center" id="message"></div></form>
+					</div>
+				</div>
 			</div>
+
+
+			
 		</section>
 		<!--/HOME-->
-		
-
 		
 
 		<!--FOOTER-->	
@@ -115,38 +132,6 @@ GIX Steve Ballmer Building, Bellevue. 21-26 Sept 2020</p>
 						<ul class="legals">
 							<li><button class="md-trigger " data-modal="modal-11">Disclaimer</button></li>
 							<li><a href="http://multia.in/">Made in Multia</a></li>
-							<li>
-								<script type="text/javascript">
-								var logos = [ "I.png" , "K2.png" , "L.png" , "M.png" ];
-								var currentlogo = 0;
-
-								function nextLogo() {
-									let selectedlogo = document.getElementById("logoselector").value;;
-									if (currentlogo + 1 >= logos.length) {
-										currentlogo = 0;
-									} else {
-										currentlogo++;
-									}
-									document.getElementById("toplogo")
-										.setAttribute("src", "assets\\img\\logos\\"+ logos[currentlogo]);;
-								
-								}
-
-								function changeLogo() {
-									let selectedlogo = document.getElementById("logoselector").value;;
-									document.getElementById("toplogo")
-										.setAttribute("src", "assets\\img\\logos\\"+ selectedlogo);;
-								
-								}
-								</script>
-								Logo selection:
-								<select id="logoselector" style="color: black;" onChange="changeLogo()">
-									<option value="I.png">Logo I</option>
-									<option value="K2.png">Logo K2</option>
-									<option value="L.png">Logo L</option>
-									<option value="M.png">Logo M</option>
-								</select>
-							</li>
 						</ul>
 					</div>
 					<div class="md-modal md-effect-9" id="modal-11">
