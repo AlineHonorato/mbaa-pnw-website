@@ -297,5 +297,7 @@ jQuery(function ($) {
    
    // scrollme.init();
 
+   /** Subscribe JS **/
+   $("#notifyMe").notifyMe(); // Activate notifyMe plugin on a '#notifyMe' element 
 
 });

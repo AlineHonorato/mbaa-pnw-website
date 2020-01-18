@@ -896,6 +896,18 @@ img.pull-right {
     max-width: 1350px;
     margin-left: auto;
     margin-right: auto; } }
+@media (max-width: 767px) {
+  .hero-speakers .banner-item {
+    background-position: top center;
+    background-attachment: inherit;
+    background-size: cover !important; }
+    .hero-speakers .banner-item .banner-content-wrap {
+      padding: 320px 0 180px; }
+      .hero-speakers .banner-item .banner-content-wrap .banner-info {
+        margin-bottom: 15px;
+        font-size: 30px; }
+      .hero-speakers .banner-item .banner-content-wrap .banner-title {
+        margin-bottom: 40px; } }
 .hero-speakers .banner-item {
   background-position: top center;
   background-attachment: inherit;

@@ -794,6 +794,30 @@
       }
    }
 }
+
+// 
+@media (max-width: 767px){
+  .hero-speakers{
+     .banner-item{
+        background-position: top center;
+        background-attachment: inherit;
+        background-size: cover !important;
+
+        .banner-content-wrap{
+           padding: 320px 0 180px;
+           .banner-info{
+              margin-bottom: 15px;
+              font-size: 30px;
+           }
+
+           .banner-title{
+              margin-bottom: 40px;
+           }
+        }
+     }
+  }
+}
+
 .hero-speakers{
    .banner-item{
       background-position: top center;
@@ -811,9 +835,7 @@
             margin-bottom: 40px;
          }
       }
-      
    }
-
 }
 
 // hero form

@@ -1,2 +1,4 @@
 config.php
 **/.sass-cache/
+*.sublime-project
+*.sublime-workspace

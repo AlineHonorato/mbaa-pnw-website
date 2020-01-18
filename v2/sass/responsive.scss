@@ -1,3 +1,5 @@
+@import 'variable';
+
 /*==========================
 tab rotate 
 ===========================*/
@@ -137,9 +139,9 @@ tab device
 
    .header {
       .navbar-light .navbar-toggler {
-         background: #e7015e;
+         background: $primary-color;
          color: #fff;
-         border-color: #e7015e;
+         border-color: $primary-color;
       }
 
       ul.navbar-nav {
@@ -167,7 +169,7 @@ tab device
 
    .header-transparent {
       .navbar-toggler {
-         background: #e7015e;
+         background: $primary-color;
          color: #fff;
       }
 
@@ -582,9 +584,9 @@ small device /mobile sm and large
 
    .header {
       .navbar-light .navbar-toggler {
-         background: #e7015e;
+         background: $primary-color;
          color: #fff;
-         border-color: #e7015e;
+         border-color: $primary-color;
       }
 
       ul.navbar-nav {
@@ -651,7 +653,7 @@ small device /mobile sm and large
 
    .header-transparent {
       .navbar-toggler {
-         background: #e7015e;
+         background: $primary-color;
          color: #fff;
       }
 
