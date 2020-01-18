@@ -445,7 +445,7 @@ img.pull-right {
     height: 40px;
     line-height: 40px;
     padding: 0px 25px;
-    background: #00c1c1;
+    /*background: #00c1c1;*/
     margin-left: 30px; }
     .header ul.navbar-nav > li.header-ticket .ticket-btn:hover {
       background: #4b2e83; }
@@ -528,7 +528,7 @@ img.pull-right {
   .header.header-classic ul.navbar-nav > li.active > a {
     color: #4b2e83; }
   .header.header-classic ul.navbar-nav > li.header-ticket .ticket-btn {
-    background: #4b2e83;
+    /*background: $primary-color;*/
     color: #fff; }
     .header.header-classic ul.navbar-nav > li.header-ticket .ticket-btn:hover {
       box-shadow: none;
@@ -905,7 +905,7 @@ img.pull-right {
     padding: 320px 0 180px; }
     .hero-speakers .banner-item .banner-content-wrap .banner-info {
       margin-bottom: 15px;
-      font-size: 20px; }
+      font-size: 30px; }
     .hero-speakers .banner-item .banner-content-wrap .banner-title {
       margin-bottom: 40px; }
 
@@ -1255,7 +1255,8 @@ img.pull-right {
       font-size: 14px;
       margin-bottom: 20px; }
     .ts-speaker-popup .ts-speaker-popup-content .company-logo {
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      max-height: 30px; }
     .ts-speaker-popup .ts-speaker-popup-content p {
       margin-bottom: 25px; }
     .ts-speaker-popup .ts-speaker-popup-content h4 {
@@ -1310,7 +1311,7 @@ img.pull-right {
     opacity: 0.302; }
   .ts-exp-wrap .ts-exp-content {
     max-width: 560px;
-    padding: 100px 80px;
+    padding: 60px 80px;
     position: relative;
     z-index: 1; }
     .ts-exp-wrap .ts-exp-content .column-title {

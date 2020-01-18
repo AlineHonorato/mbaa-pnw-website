@@ -73,7 +73,7 @@
                height: 40px;
                line-height: 40px;
                padding: 0px 25px;
-               background: #00c1c1;
+               /*background: #00c1c1;*/
                margin-left: 30px;
 
                &:hover {
@@ -231,7 +231,7 @@
 
             &.header-ticket {
                .ticket-btn {
-                  background: $primary-color;
+                  /*background: $primary-color;*/
                   color: $white-color;
 
                   &:hover {
@@ -806,7 +806,7 @@
          padding: 320px 0 180px;
          .banner-info{
             margin-bottom: 15px;
-            font-size: 20px;
+            font-size: 30px;
          }
 
          .banner-title{
@@ -1247,6 +1247,7 @@
 
       .company-logo {
          margin-bottom: 15px;
+         max-height:  30px;
       }
 
       p {
@@ -1327,7 +1328,7 @@
 
    .ts-exp-content {
       max-width: 560px;
-      padding: 100px 80px;
+      padding: 60px 80px;
       position: relative;
       z-index: 1;
 
