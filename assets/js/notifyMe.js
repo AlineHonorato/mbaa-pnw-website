@@ -15,7 +15,7 @@
 			msgError503: "Oops. Looks like something went wrong. Please try again later.",
 			msgErrorValidation: "This email address looks fake or invalid. Please enter a real email address.",
 			msgErrorFormat: "Your e-mail address is incorrect.",
-			msgSuccess: "Congrats! You are in list."
+			msgSuccess: "Great! You are in the list, we'll send up an update soon."
 		}, options );
 
     
