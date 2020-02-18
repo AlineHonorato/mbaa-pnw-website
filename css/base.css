@@ -279,7 +279,16 @@ img.pull-right {
   position: relative;
   padding-bottom: 30px;
   margin-bottom: 85px;
-  text-align: center; }
+  text-align: center;
+  /*&.white{
+     color: $white-color;
+     &:after{
+        background-image: url(../images/shap/title-white.png);
+     }
+     span{
+        color: $white-color;
+     }
+  }*/ }
   .section-title:after,
   .column-title:after {
     position: absolute;
@@ -308,15 +317,6 @@ img.pull-right {
     letter-spacing: 1.4px;
     margin-bottom: 10px;
     margin-top: -5px; }
-  .section-title.white,
-  .column-title.white {
-    color: #fff; }
-    .section-title.white:after,
-    .column-title.white:after {
-      background-image: url(../images/shap/title-white.png); }
-    .section-title.white span,
-    .column-title.white span {
-      color: #fff; }
 
 .column-title {
   margin-bottom: 35px;
