@@ -1171,13 +1171,14 @@
          }
       }
    }
+
    // index 4
-   &.white-text{
+   /*&.white-text{
          .ts-title a,
          p{
                color: $white-color;
          }
-   }
+   }*/
 }
 
 // index 2
@@ -1253,7 +1254,7 @@
    }
 
    .ts-speaker-popup-content {
-      padding: 60px 40px;
+      padding: 40px 40px;
 
       .ts-title {
          margin-bottom: 10px;
