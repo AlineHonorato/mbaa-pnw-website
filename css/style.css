@@ -1261,7 +1261,9 @@ img.pull-right {
   .ts-speaker-popup .ts-speaker-popup-img img {
     width: 100%; }
   .ts-speaker-popup .ts-speaker-popup-content {
-    padding: 40px 40px; }
+    padding: 40px 40px;
+    overflow: auto;
+    max-height: 590px; }
     .ts-speaker-popup .ts-speaker-popup-content .ts-title {
       margin-bottom: 10px; }
     .ts-speaker-popup .ts-speaker-popup-content .speakder-designation {

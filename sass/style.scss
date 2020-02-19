@@ -1255,6 +1255,9 @@
 
    .ts-speaker-popup-content {
       padding: 40px 40px;
+      // to allow for long bios
+      overflow: auto;
+      max-height: 590px;
 
       .ts-title {
          margin-bottom: 10px;
