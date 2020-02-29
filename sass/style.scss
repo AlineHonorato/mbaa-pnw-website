@@ -1173,12 +1173,12 @@
    }
 
    // index 4
-   /*&.white-text{
+   &.white-text{
          .ts-title a,
          p{
                color: $white-color;
          }
-   }*/
+   }
 }
 
 // index 2
@@ -1480,7 +1480,7 @@
 
    .schedule-slot-time {
       background: $primary-dark;
-      color: $white-color;
+      color: #4b2e83;
       padding: 60px 28px;
       font-size: 18px;
       font-weight: 700;
@@ -1534,6 +1534,7 @@
    &:nth-of-type(even) {
       .schedule-slot-time {
          background: $primary-color;
+         color: $white-color;
       }
    }
 

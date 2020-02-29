@@ -331,7 +331,7 @@ img.pull-right {
       margin-top: -5px;
 
    }
-   /*&.white{
+   &.white{
       color: $white-color;
       &:after{
          background-image: url(../images/shap/title-white.png);
@@ -339,7 +339,7 @@ img.pull-right {
       span{
          color: $white-color;
       }
-   }*/
+   }
 }
 .column-title{
    margin-bottom: 35px;

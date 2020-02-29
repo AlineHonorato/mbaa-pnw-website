@@ -311,16 +311,7 @@ img.pull-right {
   position: relative;
   padding-bottom: 30px;
   margin-bottom: 85px;
-  text-align: center;
-  /*&.white{
-     color: $white-color;
-     &:after{
-        background-image: url(../images/shap/title-white.png);
-     }
-     span{
-        color: $white-color;
-     }
-  }*/ }
+  text-align: center; }
   .section-title:after,
   .column-title:after {
     position: absolute;
@@ -349,6 +340,15 @@ img.pull-right {
     letter-spacing: 1.4px;
     margin-bottom: 10px;
     margin-top: -5px; }
+  .section-title.white,
+  .column-title.white {
+    color: #fff; }
+    .section-title.white:after,
+    .column-title.white:after {
+      background-image: url(../images/shap/title-white.png); }
+    .section-title.white span,
+    .column-title.white span {
+      color: #fff; }
 
 .column-title {
   margin-bottom: 35px;
@@ -1133,13 +1133,7 @@ img.pull-right {
 .ts-speaker {
   position: relative;
   text-align: center;
-  margin-bottom: 55px;
-  /*&.white-text{
-        .ts-title a,
-        p{
-              color: $white-color;
-        }
-  }*/ }
+  margin-bottom: 55px; }
   .ts-speaker .speaker-img {
     width: 255px;
     height: 255px;
@@ -1211,6 +1205,9 @@ img.pull-right {
     opacity: 1; }
   .ts-speaker:hover .ts-title a {
     color: #4b2e83; }
+  .ts-speaker.white-text .ts-title a,
+  .ts-speaker.white-text p {
+    color: #fff; }
 
 .speaker-classic {
   padding-top: 100px; }
@@ -1413,7 +1410,7 @@ img.pull-right {
   flex-direction: row; }
   .schedule-listing .schedule-slot-time {
     background: #e8e3d3;
-    color: #fff;
+    color: #4b2e83;
     padding: 60px 28px;
     font-size: 18px;
     font-weight: 700;
@@ -1450,7 +1447,8 @@ img.pull-right {
   .schedule-listing:hover .schedule-slot-title {
     color: #3b1d82; }
   .schedule-listing:nth-of-type(even) .schedule-slot-time {
-    background: #4b2e83; }
+    background: #4b2e83;
+    color: #fff; }
   .schedule-listing.launce .schedule-slot-time {
     padding: 40px 28px; }
   .schedule-listing.launce .schedule-slot-title {
