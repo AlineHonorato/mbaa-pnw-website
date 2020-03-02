@@ -1367,9 +1367,11 @@ img.pull-right {
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -ms-border-radius: 50%;
-      background-image: linear-gradient(-45deg, #22e1ff 0%, #1d8fe1 49%, #625eb1 100%);
-      background-image: -webkit-linear-gradient(-45deg, #22e1ff 0%, #1d8fe1 49%, #625eb1 100%);
-      background-image: -ms-linear-gradient(-45deg, #22e1ff 0%, #1d8fe1 49%, #625eb1 100%);
+      background-color: #85754d;
+      /*background-image: linear-gradient(-45deg, rgb(34, 225, 255) 0%, rgb(29, 143, 225) 49%, rgb(98, 94, 177) 100%);
+      background-image: -webkit-linear-gradient(-45deg, rgb(34, 225, 255) 0%, rgb(29, 143, 225) 49%, rgb(98, 94, 177) 100%);
+      background-image: -ms-linear-gradient(-45deg, rgb(34, 225, 255) 0%, rgb(29, 143, 225) 49%, rgb(98, 94, 177) 100%);
+      */
       opacity: 0.502;
       display: block;
       position: absolute;
@@ -1388,7 +1390,8 @@ img.pull-right {
         opacity: .5; }
     .ts-schedule-info ul li:nth-child(1) a {
       top: 140px;
-      background-image: linear-gradient(110deg, #fc6076 0%, #ff9a44 100%); }
+      /*background-image: linear-gradient(110deg, rgb(252, 96, 118) 0%, rgb(255, 154, 68) 100%);*/
+      background-image: linear-gradient(110deg, #4b2e83 0%, #6b67c1 100%); }
     .ts-schedule-info ul li:nth-child(2) a {
       left: 130px;
       top: -15px; }
@@ -1672,9 +1675,11 @@ img.pull-right {
     cursor: no-drop; }
     .pricing-item.disebled .btn {
       background: #a077a6;
-      cursor: no-drop; }
+      cursor: no-drop;
+      color: white; }
 
 .ts-pricing-box {
+  min-height: 530px;
   background: #fff;
   padding: 40px;
   text-align: center;

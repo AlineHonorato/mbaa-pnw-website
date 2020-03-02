@@ -1411,9 +1411,13 @@
             height: 245px;
             width: 245px;
             @include border-radius(50%);
-            background-image: linear-gradient(-45deg, rgb(34, 225, 255) 0%, rgb(29, 143, 225) 49%, rgb(98, 94, 177) 100%);
+
+            background-color: #85754d;
+
+            /*background-image: linear-gradient(-45deg, rgb(34, 225, 255) 0%, rgb(29, 143, 225) 49%, rgb(98, 94, 177) 100%);
             background-image: -webkit-linear-gradient(-45deg, rgb(34, 225, 255) 0%, rgb(29, 143, 225) 49%, rgb(98, 94, 177) 100%);
             background-image: -ms-linear-gradient(-45deg, rgb(34, 225, 255) 0%, rgb(29, 143, 225) 49%, rgb(98, 94, 177) 100%);
+            */
             opacity: 0.502;
             display: block;
             @include absolute();
@@ -1438,7 +1442,8 @@
          &:nth-child(1) {
             a {
                top: 140px;
-               background-image: linear-gradient(110deg, rgb(252, 96, 118) 0%, rgb(255, 154, 68) 100%);
+               /*background-image: linear-gradient(110deg, rgb(252, 96, 118) 0%, rgb(255, 154, 68) 100%);*/
+               background-image: linear-gradient(110deg, #4b2e83 0%, #6b67c1 100%);
             }
          }
 
@@ -1855,15 +1860,18 @@
    &.disebled {
       opacity: 0.7;
       cursor: no-drop;
+      
 
       .btn {
          background: #a077a6;
          cursor: no-drop;
+         color: white;
       }
    }
 }
 
 .ts-pricing-box {
+   min-height: 530px;
    background: $white-color;
    padding: 40px;
    text-align: center;
