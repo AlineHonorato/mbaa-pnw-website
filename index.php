@@ -84,9 +84,11 @@
                         <a href="#schedule-section" class="">Schedule</a>
                      </li>
 
+                     <!--
                      <li class="header-ticket nav-item">
                         <a class="ticket-btn btn" href="tickets.html">Register</a>
                      </li>
+                     -->
                   </ul>
                </div>
             </nav>
@@ -142,7 +144,7 @@
                         </div>
                          -->
                         <div class="banner-btn wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="800ms">
-                           <a href="tickets.html" class="btn">Register</a>
+                           <!-- <a href="tickets.html" class="btn">Register</a> -->
                            <!--<a href="#" class="btn fill">Add to Calendar</a>-->
                         </div>
                      </div>
@@ -187,6 +189,34 @@
          </div>
       </section>
       <!-- banner end-->
+
+
+      <!-- ts intro start -->
+      <section id="about" class="ts-intro-item section-bg">
+         <div class="container">
+         <hr>
+         <h2 class="column-title">Conference Update:
+         </h2>
+            <p>The PNW MBA Conference team hopes you and yours are doing well during these unprecedented times.
+                Given public health and the University of Washington guidelines, we have made the tough decision 
+                to cancel this year's PNW MBA Conference on April 18. The full ticket value of registered attendees
+                 of the conference will be refunded in the coming days.</p>
+
+            <p>While the live event cannot occur, we stay committed to our mission to 
+               provide opportunities for our classmates and colleagues to connect.
+               So, in lieu of a full-day conference, we will be producing free, online 
+               content for the PNW MBA community. Please keep an eye out for our email
+               and social media announcements on 
+               <a target="_blank" href="https://www.linkedin.com/company/pacific-northwest-mba-conference/" class="btn-link">LinkedIn</i></a>
+               and <a target="_blank" href="https://www.facebook.com/uwbmbaa/" class="btn-link">Facebook</i></a>.</p>
+
+            <p>We look forward to continuing this journey together and thoroughly appreciate your continued support,</p>
+
+            <p>The PNW MBA Association</p>
+            <hr>
+         </div><!-- container end-->
+      </section>
+      <!-- ts intro end-->
 
       <!-- ts intro start -->
       <section id="about" class="ts-intro-item section-bg">
@@ -688,7 +718,6 @@
                            </h3>
                         </div>
                         <div class="promotional-code">
-
                            <p class="promo-code-text">ON SALE THROUGH <br><b>FEBRUARY 29</b></p>
                            <p>
                               <ul>
@@ -705,7 +734,7 @@
                </div><!-- col end-->
 
                <div class="col-lg">
-                  <div class="pricing-item">
+                  <div class="pricing-item disebled">
                      <img class="pricing-dot " src="images/pricing/dot.png" alt="">
                      <div class="ts-pricing-box">
 
@@ -725,7 +754,7 @@
                                  <li>Post-conference networking reception</li>
                               </ul>
                            </p>
-                           <a href="tickets.html" class="btn pricing-btn">Buy Ticket</a>
+                           <a class="btn pricing-btn">Buy Ticket</a>
                         </div>
                      </div><!-- ts pricing box-->
                      <img class="pricing-dot1 " src="images/pricing/dot.png" alt="">
@@ -733,7 +762,7 @@
                </div><!-- col end-->
 
                <div class="col-lg">
-                  <div class="pricing-item">
+                  <div class="pricing-item disebled">
                      <img class="pricing-dot " src="images/pricing/dot.png" alt="">
                      <div class="ts-pricing-box">
                         <span class="big-dot"></span>
@@ -752,7 +781,7 @@
                               </ul>
                            </p>
                            <p class="promo-code-text"> </p>
-                           <a href="tickets.html" class="btn pricing-btn">Buy Ticket</a>
+                           <a class="btn pricing-btn">Buy Ticket</a>
                         </div>
                      </div><!-- ts pricing box-->
                      <img class="pricing-dot1 " src="images/pricing/dot.png" alt="">
